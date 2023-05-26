@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+table, th, td{
+    border: 1px solid green;
+}
+</style>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -28,7 +33,48 @@
       <option value="MD">Maryland</option>
     </select>
 
+    <!-- Create text input field with label message of the day -->
+    <!-- <br> -->
+    
+    <div>
+        <label for="firstName">Enter First Name:</label>
+        <input type="text" id="firstName">    
+    </div>
 
+    <div>
+        <label for="lastName">Enter Last Name:</label>
+        <input type="text" id="lastName">    
+    </div>
+
+    <table style="background-color:burlywood;">
+        <tr>
+            <th>Name</th>
+            <th>Batch</th>
+            <th>P.Language</th>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>1</td>
+            <td>Java+Salesforce</td>
+        </tr>
+        <tr>
+            <td>Johh</td>
+            <td>2</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>Mary</td>
+            <td>3</td>
+            <td>Python</td>
+        </tr>
+    </table>
+    
+    <p> Git is local sofware install on your machine
+        and it's used for 
+        <span style="color: red;"> keeping track of changes.</span>
+        You initialize git repository on your project folder
+        it will star keeping track of that folder.
+    </p>
 
 
   </body>

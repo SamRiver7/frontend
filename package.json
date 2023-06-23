@@ -2,22 +2,22 @@
   "name": "frontend",
   "version": "1.0.0",
   "description": "",
-  "main": "class_example.js",
   "type": "module",
+  "main": "class_example.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SamRiver7/frontend.git"
+    "url": "git+https://github.com/Akbar300/frontend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SamRiver7/frontend/issues"
+    "url": "https://github.com/Akbar300/frontend/issues"
   },
-  "homepage": "https://github.com/SamRiver7/frontend#readme",
+  "homepage": "https://github.com/Akbar300/frontend#readme",
   "dependencies": {
     "chalk": "^5.2.0"
   }
